@@ -79,6 +79,7 @@ function excluirFilme() {
 }
 
 function showForm() {
+    hideAllSections(); // Oculta todas as seções
     document.getElementById("form").classList.remove("hidden");
 }
 
@@ -87,6 +88,7 @@ function hideForm() {
 }
 
 function showSearch() {
+    hideAllSections(); // Oculta todas as seções
     document.getElementById("search").classList.remove("hidden");
 }
 
@@ -96,6 +98,7 @@ function hideSearch() {
 }
 
 function showDelete() {
+    hideAllSections(); // Oculta todas as seções
     document.getElementById("delete").classList.remove("hidden");
 }
 
@@ -105,6 +108,14 @@ function hideDelete() {
 }
 
 function hideList() {
+    document.getElementById("list").classList.add("hidden");
+}
+
+// Função para ocultar todas as seções
+function hideAllSections() {
+    document.getElementById("form").classList.add("hidden");
+    document.getElementById("search").classList.add("hidden");
+    document.getElementById("delete").classList.add("hidden");
     document.getElementById("list").classList.add("hidden");
 }
 
