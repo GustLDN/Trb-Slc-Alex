@@ -1,0 +1,42 @@
+[
+    {
+        "nome": "Ação do Poder",
+        "classificacao": "16 anos",
+        "duracao": 120,
+        "genero": "Ação",
+        "ano": 2022,
+        "sinopse": "Um agente secreto luta contra uma organização criminosa."
+    },
+    {
+        "nome": "Riso Sem Fim",
+        "classificacao": "Livre",
+        "duracao": 90,
+        "genero": "Comédia",
+        "ano": 2021,
+        "sinopse": "Uma comédia romântica que segue dois jovens em busca do amor."
+    },
+    {
+        "nome": "Drama da Vida",
+        "classificacao": "12 anos",
+        "duracao": 150,
+        "genero": "Drama",
+        "ano": 2020,
+        "sinopse": "Um olhar profundo sobre a vida de uma família em dificuldades."
+    },
+    {
+        "nome": "Aventura Espacial",
+        "classificacao": "Livre",
+        "duracao": 130,
+        "genero": "Ficção Científica",
+        "ano": 2023,
+        "sinopse": "Uma equipe de astronautas embarca em uma missão intergaláctica."
+    },
+    {
+        "nome": "Suspense Fatal",
+        "classificacao": "18 anos",
+        "duracao": 110,
+        "genero": "Suspense",
+        "ano": 2019,
+        "sinopse": "Um thriller psicológico que mantém o público na ponta da cadeira."
+    }
+]
